@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Home page</title>
+{% endblock %}
+
+{% block body %}
+<br>
+<h1>Home Page !</h1>
+<br>
+<main role="main">
+    <div class="jumbotron">
+        <div class="col-sm-8 mx-auto">
+            <h1>Welcome</h1>
+            <p>Welcome to my blog page, where everyone can post their opinions and share their knowledge related to Computer Science. This Blog will include all things tech, you name it, you will find discussion here.</p>
+            <p>Don't forget to check out recent tech news at <a href = "https://www.technologyreview.com/" target="_blank"> this link</a>.</p>
+            <p>                
+                <a class="btn btn-primary" href="/posts" role="button" target="_blank">Go to Blog Posts &raquo;</a>
+            </p>
+        </div>
+    </div>
+</main>
+{% endblock %}
